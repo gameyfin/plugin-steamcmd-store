@@ -1,4 +1,4 @@
-Plugin-Version: 1.0.0
+Plugin-Version: 1.0.1
 Plugin-Class: org.gameyfin.plugins.store.steamcmd.SteamCmdPlugin
 Plugin-Id: org.gameyfin.plugins.store.steamcmd
 Plugin-Name: Steam Builds (SteamCMD)
@@ -8,4 +8,5 @@ Plugin-Description: Tracks the latest branch builds of Steam products.<br>
 Plugin-Short-Description: Steam branch builds via steamcmd.net
 Plugin-Author: grimsi
 Plugin-License: MIT
-Plugin-Url: https://github.com/gameyfin
+Plugin-Url: https://github.com/gameyfin/plugin-steamcmd-store
+Plugin-Requires: >=2.7.0
