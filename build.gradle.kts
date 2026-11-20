@@ -11,7 +11,10 @@ plugins {
 group = "org.gameyfin.plugins"
 version = Manifest(file("src/main/resources/MANIFEST.MF").inputStream()).mainAttributes.getValue("Plugin-Version")
 
-repositories { mavenCentral() }
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
 dependencyLocking { lockAllConfigurations() }
 java {
     sourceCompatibility = JavaVersion.VERSION_25
